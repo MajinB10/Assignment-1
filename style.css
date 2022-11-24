@@ -518,4 +518,18 @@ footer .copyright {
     #banner {
         height: 40vh;
     }
+
+    /* Single product */
+    #prodetails {
+        display:flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
 }
