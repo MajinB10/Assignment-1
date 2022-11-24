@@ -433,6 +433,11 @@ footer .copyright {
     line-height: 25px;
 }
 
+/* About Page */
+#about-header {
+    background-image: none;
+}
+
 /* Media */
 @media (max-width: 799px) {
     #navbar {
