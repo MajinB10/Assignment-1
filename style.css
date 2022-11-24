@@ -450,6 +450,20 @@ footer .copyright {
     transform: translate(-50%, -50%);
 }
 
+#about-head img {
+    width: 45%;
+    height: auto;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head div {
+    padding-left: 70px;
+}
+
 /* Media */
 @media (max-width: 799px) {
     #navbar {
@@ -539,4 +553,17 @@ footer .copyright {
     #prodetails .single-pro-details {
         width: 100%;
     }
+    
+    /* About Page */
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px ;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+
 }
