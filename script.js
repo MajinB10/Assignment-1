@@ -2,7 +2,7 @@ const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
 
-if (bar) {
+/*if (bar) {
     bar.addEventListener('click', clickon()
     })
 }
@@ -15,4 +15,8 @@ if (close) {
 
 function clickon(){
     nav.classlist.add('active');
+}*/
+
+function clicked(){
+    nav.classList.toggle("active")
 }
