@@ -3,8 +3,7 @@ const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
 
 if (bar) {
-    bar.addEventListener('click', () => {
-        nav.classlist.add('active');
+    bar.addEventListener('click', clickon()
     })
 }
 
@@ -12,4 +11,8 @@ if (close) {
     close.addEventListener('click', () => {
         nav.classlist.remove('active');
     })
+}
+
+function clickon(){
+    nav.classlist.add('active');
 }
