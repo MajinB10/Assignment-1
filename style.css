@@ -56,6 +56,10 @@ button.normal {
     transition: 0.3s ease;
 }
 
+button.normal:hover {
+    background-color: black;
+}
+
 body {
     width: 100%;
 }
@@ -177,9 +181,19 @@ body {
     transition: 0.3s ease;
 }
 
-#feature .fe-box:hover {
-    box-shadow: 20px 20px 34px rgba(70, 62, 221, 0.1);
+#feature .fe-box:hover,
+#feature .febox h6:hover {
+    /*box-shadow: 20px 20px 34px rgba(70, 62, 221, 0.1);*/
+   /* box-shadow: 20px 20px 34px rgba(35, 180, 151, 0.47);*/
+   transform: translateY(-5px);
+   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.5);
+    /*background-color: black;*/
 }
+
+/*#feature .fe-box h6:hover{
+    color: black;
+    background-color: white;
+}*/
 
 #feature .fe-box img {
     width: 100%;
@@ -193,10 +207,11 @@ body {
     border-radius: 4px;
     /*color: #088178;*/
     color: white;
-    background-color: #fddde4;
+    background-color: black;
+    transition: 0.3s ease;
 }
 
-#feature .fe-box:nth-child(1) h6 {
+/*#feature .fe-box:nth-child(1) h6 {
     background-color: black;
 }
 #feature .fe-box:nth-child(2) h6 {
@@ -213,7 +228,7 @@ body {
 }
 #feature .fe-box:nth-child(6) h6 {
     background-color: black;
-}
+}*/
 
 #product1 {
     text-align: center;
@@ -241,6 +256,7 @@ body {
 
 #product1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
 }
 
 #product1 .pro img {
