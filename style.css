@@ -6,6 +6,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/*#preloader {
+    background: url("img/preloader.gif") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: static;
+    z-index: 100;
+}*/
+
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -255,7 +263,7 @@ body {
 }
 
 #product1 .pro:hover {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
 }
 
