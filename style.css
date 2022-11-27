@@ -133,7 +133,7 @@ body {
 }
 
 /* Home Page */
-#hero {
+#intro {
     background-image: url("img/Intro-BG_auto_x2.jpg");
     height: 90vh;
     width: 100%;
@@ -146,14 +146,14 @@ body {
     justify-content: center;
 }
 
-#hero h4 {
+#intro h4 {
     padding-bottom: 15px;
 }
-#hero h1 {
+#intro h1 {
     color: #088178
 }
 
-#hero button {
+#intro button {
     background-color: black;
     border: none;
     color: white;
@@ -167,7 +167,7 @@ body {
     transition: 0.3s ease;
 }
 
-#hero button:hover {
+#intro button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
