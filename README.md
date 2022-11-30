@@ -4,6 +4,8 @@ This is my website based on a fictional company calles E-cave. My company will f
 Index.html
 Feature1 - Has a navigation Bar to navigate to different parts of the website. Each navbar elemet will lead to a new html file created by me.
 Feature2 - Has a background image related to the oc=verall theme of the website. The Picture has some words which act as advertisements to the user. Below the advertsing words, there is a shop now button. Clicking on the shop now button will lead to the shop.html file.
-Feature3 - 
+Feature3 - Shows cetegories of products which are avaiable in my store. These objects cannot be clicked on and only has a hover effect placed on them.
+Feature4 - Has a fetured sections which shows popular products bought by our previous customers. clicking on this object will open the specific product.html file. Object has hover attributes.
+Feature5 - 
 
 
