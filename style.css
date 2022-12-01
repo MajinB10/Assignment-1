@@ -114,7 +114,7 @@ body {
 #navbar li a.active::after,
 #navbar li a:hover::after {
     content: "";
-    width: 30%;
+    width: 52%;
     height: 2px;
     background: #088178;
     position: absolute;
@@ -123,10 +123,6 @@ body {
     transition: 0.3s ease;
 }
 
-#mobile {
-    display:none;
-    align-items: center;
-}
 
 #close {
     display: none;
@@ -493,33 +489,45 @@ footer .copyright {
 @media (max-width: 799px) {
     #navbar {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-end;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        width: 300px;
-        background-color: black;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
+        align-items: center;
+        justify-content: center;
+        height: 8vh;
+    }
+    
+    #navbar li{
+        list-style: none;
+        padding: 0 10px;
+        position: relative;
+    }
+    
+    #navbar li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        color: whitesmoke;
+        transition: 0.3s ease;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: #088178
+    }
+    
+    #navbar li a.active::after,
+    #navbar li a:hover::after {
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: -4px;
+        left: 11px;
         transition: 0.3s ease;
     }
     #navbar .active {
         right: 0px;
     }
-    #navbar li {
-        margin-bottom: 25px;
-    }
-    #mobile {
-        display:flex;
-        align-items: center;
-    }
-    #mobile i {
-        color: black;
-        font-size: 24px;
-        padding-left: 20px;
-    }
+ 
     #close {
         display: initial;
         position: absolute;
@@ -527,7 +535,7 @@ footer .copyright {
         color: grey;
         font-size: 24px;
     }
-    #hero {
+    #intro {
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 45%;
@@ -541,7 +549,7 @@ footer .copyright {
     #header {
         padding: 10px 30px;
     }
-    #hero {
+    #intro {
         padding: 0 20px;
         background-position: top 30% right 45%;
     }
@@ -591,7 +599,4 @@ footer .copyright {
         padding-left: 0px;
     }
 
-}
-#bar {
-    color: white
 }
