@@ -42,7 +42,7 @@ p{
     margin: 15px 0 20px 0;
 }
 
-.section-p1 {
+.aesthetic1 {
     padding: 40px 80px;
 }
 
@@ -167,14 +167,14 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#feature {
+#featured {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#feature .fe-box {
+#featured .fe-box {
     width: 180px;
     text-align: center;
     padding: 25px 15px;
@@ -185,8 +185,8 @@ body {
     transition: 0.3s ease;
 }
 
-#feature .fe-box:hover,
-#feature .febox h6:hover {
+#featured .fe-box:hover,
+#featured .febox h6:hover {
     /*box-shadow: 20px 20px 34px rgba(70, 62, 221, 0.1);*/
    /* box-shadow: 20px 20px 34px rgba(35, 180, 151, 0.47);*/
    transform: translateY(-5px);
@@ -194,17 +194,17 @@ body {
     /*background-color: black;*/
 }
 
-/*#feature .fe-box h6:hover{
+/*#featured .fe-box h6:hover{
     color: black;
     background-color: white;
 }*/
 
-#feature .fe-box img {
+#featured .fe-box img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-#feature .fe-box h6 {
+#featured .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
@@ -215,22 +215,22 @@ body {
     transition: 0.3s ease;
 }
 
-/*#feature .fe-box:nth-child(1) h6 {
+/*#featured .fe-box:nth-child(1) h6 {
     background-color: black;
 }
-#feature .fe-box:nth-child(2) h6 {
+#featured .fe-box:nth-child(2) h6 {
     background-color: black;
 }
-#feature .fe-box:nth-child(3) h6 {
+#featured .fe-box:nth-child(3) h6 {
     background-color: black;
 }
-#feature .fe-box:nth-child(4) h6 {
+#featured .fe-box:nth-child(4) h6 {
     background-color: black;
 }
-#feature .fe-box:nth-child(5) h6 {
+#featured .fe-box:nth-child(5) h6 {
     background-color: black;
 }
-#feature .fe-box:nth-child(6) h6 {
+#featured .fe-box:nth-child(6) h6 {
     background-color: black;
 }*/
 
@@ -559,10 +559,10 @@ footer .copyright {
     h1 {
         font-size: 38px;
     }
-    .section-p1 {
+    .aesthetic1 {
         padding: 20px;
     }
-    #feature .fe-box {
+    #featured .fe-box {
         width: 155px;
         margin: 0 0 15px 0;
     }
