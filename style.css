@@ -598,5 +598,12 @@ footer .copyright {
     #about-head div {
         padding-left: 0px;
     }
+    #about-header h2 {
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 }
