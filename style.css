@@ -268,28 +268,28 @@ body {
     border-radius: 20px;
 }
 
-#product .pro .des {
+#product .pro .desc {
     text-align: start;
     padding: 10px 0;
 }
 
-#product .pro .des span {
+#product .pro .desc span {
     color: #606063;
     font-size: 12px;
 }
 
-#product .pro .des h5 {
+#product .pro .desc h5 {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
 }
 
-#product .pro .des i {
+#product .pro .desc i {
     font-size: 12px;
     color: goldenrod;
 }
 
-#product .pro .des h4 {
+#product .pro .desc h4 {
     padding-top: 7px;
     font-size: 18px;
     font-weight: 700;
